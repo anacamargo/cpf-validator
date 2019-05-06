@@ -8,15 +8,15 @@ $ npm install gtech-cpf-validator
 
 ## Como utilizar:
 ```javascript
-const CpfValidator = require('gtech-cpf-validator');
+const isValid = require('gtech-cpf-validator');
 const cpfString = '214.076.310-63';
 const cpfStringNumber = '49034986039';
 const cpfNumber = 41606102001;
 
 const valid = { 
-  cpf1 : CpfValidator.cpfValidator(cpfString),
-  cpf2 : CpfValidator.cpfValidator(cpfStringNumber),
-  cpf3 : CpfValidator.cpfValidator(cpfNumber)
+  cpf1 : isValid.cpfValidator(cpfString),
+  cpf2 : isValid.cpfValidator(cpfStringNumber),
+  cpf3 : isValid.cpfValidator(cpfNumber)
 }
 
 //return { cpf1: true, cpf2: true, cpf3: true }
