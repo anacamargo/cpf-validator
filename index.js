@@ -11,8 +11,7 @@ function cpfValidator(number) {
       const newParcialCPF = [...parcialCPF, firstDigit];
       const secondDigit = validateDigits(newParcialCPF);
       const validationDigits = `${firstDigit}${secondDigit}`;
-
-      if (match[4] === validationDigits) return true;
+      return (match[4] === validationDigits);
     }
   }
   return false;
