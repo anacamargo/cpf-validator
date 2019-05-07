@@ -1,6 +1,6 @@
 {
   "name": "gtech-cpf-validator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Valida o número do CPF através dos dígitos verificadores (utilizando a regra matemática específica) e retornar true ou false de acordo com o caso.",
   "main": "index.js",
   "scripts": {
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/anacamargo/card-validator.git"
+    "url": "git+ssh://git@github.com/anacamargo/cpf-validator.git"
   },
   "keywords": [
-    "card-validator"
+    "cpf-validator"
   ],
   "author": "Ana Cláudia Camargo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anacamargo/card-validator/issues"
+    "url": "https://github.com/anacamargo/cpf-validator/issues"
   },
-  "homepage": "https://github.com/anacamargo/card-validator#readme"
+  "homepage": "https://github.com/anacamargo/cpf-validator#readme"
 }
